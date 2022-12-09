@@ -11,13 +11,17 @@
     <!-- GRID -->
     <div class="grid-container">
         <!-- HEADER -->
-        <div class="header">
-            MY PORTFOLIO
+        <div id="header">
+            <img src="./assets/images/fox.png" alt="picture of a cute fox">
+            <a href="#header">Niel</a>
         </div>
         <!-- TOP CONTENT -->
         <div class="top-container">
-            <h1>DANIEL EDISON MENDEGORIN</h1>
-            <h3><em>An aspiring web-developer</em></h3>
+            <img src="./assets/images/niel.png" alt="A profile picture of myself">
+            <div class="content-body">
+                <h1>DANIEL EDISON MENDEGORIN</h1>
+                <h3><em>An aspiring web-developer</em></h3>
+            </div>
         </div>
         <!-- SIDENAV -->
         <div class="sidenav-container">
@@ -29,7 +33,7 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#interests">Interests</a></li>
                     <li><a href="#awards">Awards</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +43,9 @@
             <div class="container" id="about">
                 <h2>About Me</h2>
                 <div class="content-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto harum ea ullam earum, a voluptate deserunt est quaerat fugiat nulla tempore voluptates fugit nemo saepe aperiam dolores suscipit! Consectetur non minus in exercitationem repudiandae eaque, eum rerum at architecto! Repellat dolores soluta error voluptas ut, voluptates deleniti placeat possimus sint!</p>
+                    <p>I am currently studying full-stack web development at Uplift Code Camp. Before studying at Uplift, I am an electrical engineering graduate focused in electronics. However, because I am so passionate about technology, I decided to change my career and focus on programming, specifically web development.</p>
+                    <br>
+                    <p>Have significant experience in Git management, HTML, CSS, Python, Matlab, and Visual Basic.</p>
                 </div>
             </div>
             <!-- Education -->
@@ -78,8 +84,25 @@
             <!-- Skills -->
             <div class="container" id="skills">
                 <h2>Skills</h2>
+                <!-- Downloading the resume -->
+                <h6>Resume</h6>
+                <div class="resume-item">
+                    <a href="./my-resume.pdf" download>
+                        <div class="resume-card">
+                            <img src="./assets/images/cv.png" alt="icon of resume/cv">
+                        </div>
+                        <p>DOWNLOAD</p>
+                    </a>
+                </div>
+                <!-- Technologies/Stacks Used -->
                 <h6>Technologies Used</h6>
                 <div class="content-body">
+                    <div class="skills-item">
+                        <div class="skills-card">
+                            <img src="./assets/images/git.png" alt="logo of Git">
+                        </div>
+                        <p>Git</p>
+                    </div>
                     <div class="skills-item">
                         <div class="skills-card">
                             <img src="./assets/images/html.png" alt="logo of HTML">
@@ -122,6 +145,36 @@
                         </div>
                         <p>Logisim</p>
                     </div>
+                    <div class="skills-item">
+                        <div class="soon-card">
+                            <img src="./assets/images/javascript.png" alt="logo of Javascipt">
+                        </div>
+                        <p>Soon</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="soon-card">
+                            <img src="./assets/images/react.png" alt="logo of React">
+                        </div>
+                        <p>Soon</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="soon-card">
+                            <img src="./assets/images/nodejs.png" alt="logo of NodeJs">
+                        </div>
+                        <p>Soon</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="soon-card">
+                            <img src="./assets/images/expressjs.png" alt="logo of ExpressJs">
+                        </div>
+                        <p>Soon</p>
+                    </div>
+                    <div class="skills-item">
+                        <div class="soon-card">
+                            <img src="./assets/images/mongodb.png" alt="logo of MongoDB">
+                        </div>
+                        <p>Soon</p>
+                    </div>
                 </div>
             </div>
             <!-- Experiences -->
@@ -160,6 +213,7 @@
             <!-- Interests -->
             <div class="container" id="interests">
                 <h2>Interests</h2>
+                <!-- Company iterests -->
                 <h6>Companies</h6>
                 <div class="content-body">
                     <div class="interests-item">
@@ -178,6 +232,18 @@
                         <div class="interests-card">
                             <img src="./assets/images/aboitiz-foundation.jpg" alt="logo of Aboitiz Foundation">
                             <p>Aboitiz Foundation</p>
+                        </div>
+                    </div>
+                    <div class="interests-item">
+                        <div class="interests-card">
+                            <img src="./assets/images/meta.png" alt="logo of Meta">
+                            <p>Meta</p>
+                        </div>
+                    </div>
+                    <div class="interests-item">
+                        <div class="interests-card">
+                            <img src="./assets/images/accenture.jpg" alt="logo of Accenture">
+                            <p>Accenture</p>
                         </div>
                     </div>
                     <div class="interests-item">
@@ -228,19 +294,18 @@
                             <p>Telus</p>
                         </div>
                     </div>
+                    <div class="interests-item">
+                        <div class="interests-card">
+                            <img src="./assets/images/white-cloak.png" alt="logo of White Cloak Technologies">
+                            <p>White Cloak Technologies</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Awards/Achievements -->
             <div class="container" id="awards">
                 <h2>Awards/Certifications</h2>
                 <div class="content-body">
-                    <div class="awards-item">
-                        <img src="./assets/images/prc.svg" alt="Logo of PRC">
-                        <div class="awards-card">
-                            <h6>Registered Electrical Engineer</h6>
-                            <p>Philippine Professional Regulation Committee</p>
-                        </div>
-                    </div>
                     <div class="awards-item">
                         <img src="./assets/images/uplift.png" alt="Logo of Uplift Code Camp">
                         <div class="awards-card">
@@ -249,11 +314,18 @@
                             <img src="./assets/images/crossing-fingers.png">
                         </div>
                     </div>
+                    <div class="awards-item">
+                        <img src="./assets/images/prc.svg" alt="Logo of PRC">
+                        <div class="awards-card">
+                            <h6>Registered Electrical Engineer</h6>
+                            <p>Philippine Professional Regulation Committee</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Contact -->
             <div class="container" id="contact">
-                <h2>Contact</h2>
+                <h2>Contact Me</h2>
                 <div class="content-body">
                     <div class="contact-item">
                         <img src="./assets/images/phone.png" alt="An icon of a phone">Mobile: 
@@ -273,7 +345,7 @@
                     </div>
                     <div class="contact-item">
                         <img src="./assets/images/linkedin.png" alt="An icon of linkedIn">LinkedIn: 
-                        <a href="https://www.linkedin.com/in/daniel-mendegorin-b6056b218/">&nbsp Profile</a>
+                        <a href="https://www.linkedin.com/in/daniel-edison-mendegorin-5b13a8247/">&nbsp Profile</a>
                     </div>
                 </div>
             </div>
@@ -281,7 +353,7 @@
         <!-- FOOTER -->
         <div class="footer">
             <p>Uplift Code Camp</p>
-            <p>Icons made by Futuer, Gregor, Freepik, Soodesign, Pixel Perfect, and Dave Gandy from <a href="https://www.flaticon.com/">Flaticon</a></p>
+            <p>Icons made by Futuer, Gregor, Freepik, Soodesign, Pixel Perfect, Good Ware, and Dave Gandy from <a href="https://www.flaticon.com/">Flaticon</a></p>
         </div>
 </body>
 </html>

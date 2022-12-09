@@ -31,7 +31,7 @@ h6 {
 }
 
 /* HEADER */
-.header {
+#header {
     grid-area: header;
     background-color: #1f2937;
     font-size: 24px;
@@ -43,6 +43,18 @@ h6 {
     border-bottom: 2px solid #5d6063;
 }
 
+#header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 0.5em;
+}
+
+#header a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 /* TOP CONTENT */
 .top-container {
     grid-area: top-cont;
@@ -51,7 +63,7 @@ h6 {
     justify-content: center;
     align-items: center; 
     display: flex;
-    flex-direction: column;
+    border-bottom: 2px solid #5d6063;
 }
 
 .top-container h1 {
@@ -63,6 +75,14 @@ h6 {
 .top-container h3 {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.top-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid #5d6063;
+    margin-right: 1em;
 }
 
 /* SIDENAV */
@@ -128,6 +148,13 @@ h6 {
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+/* ABOUT ME */
+#about .content-body {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 /* EDUCATION */
 #education .content-body {
@@ -170,20 +197,35 @@ h6 {
 #skills .content-body {
     flex-wrap: wrap;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
 #skills img {
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     border-radius: 10px;
+}
+
+.soon-card img {
+    filter: blur(4px);
 }
 
 .skills-card {
     border: 3px solid #3882f6;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 10px;
+}
+
+.soon-card {
+    border: 3px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 10px;
+}
+
+.resume-card {
+    display: flex;
+    justify-content: center;
 }
 
 .skills-item {
@@ -200,6 +242,12 @@ h6 {
     align-items: flex-start;
     width: 100%;
     margin-bottom: 1em;
+}
+
+#skills a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
 }
 
 /* EXPERIENCE */
@@ -321,9 +369,9 @@ h6 {
 }
 
 #contact img {
-    height: 50px;
-    width: 50px;
-    margin-right: 3em;
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
 }
 
 #contact a {

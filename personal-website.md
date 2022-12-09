@@ -43,32 +43,32 @@ The below are the user stories for this project:
 
 #### Acceptance criteria
 
-- I can see your full name.
-- I can read a short description of you.
-- (Optional) I can see a photo of you.
+-<DONE> I can see your full name.
+-<DONE> I can read a short description of you.
+-<DONE> (Optional) I can see a photo of you.
 
 ### As a user, I can learn about your skills.
 
 #### Acceptance criteria
 
-- I can click a link to download your resume.
-- I can see a list of technologies and stacks that you use. Each technology and stack should be represented by an image icon/logo with an alt text.
+-<DONE> I can click a link to download your resume.
+-<DONE> I can see a list of technologies and stacks that you use. Each technology and stack should be represented by an image icon/logo with an alt text.
 
 ### As a user, I can see how to contact or follow you.
 
 #### Acceptance criteria
 
-- I can click a link to send an email to your email address.
-- I can click a link to visit your GitHub or Gitlab page.
-- I can click a link to visit your LinkedIn page.
+-<DONE> I can click a link to send an email to your email address.
+-<DONE> I can click a link to visit your GitHub or Gitlab page.
+-<DONE> I can click a link to visit your LinkedIn page.
 
 ### As a user, I can navigate your site.
 
 #### Acceptance criteria
 
-- There is a navigation UI that has links to all of the pages or sections.
-- When I click on a link in the navigation UI, I can view that page/section.
-- The navigation should appear in a consistent place across pages and is easy to use.
+-<DONE> There is a navigation UI that has links to all of the pages or sections.
+-<DONE> When I click on a link in the navigation UI, I can view that page/section.
+-<DONE> The navigation should appear in a consistent place across pages and is easy to use.
 
 ### As a user, I can experience an interactive UI.
 
@@ -85,12 +85,12 @@ Technical specifications are requirements on the implementation or design of a s
 
 The below are the technical specifications for this project:
 
-- Code should have both grid AND flexbox implementation.
-- Use of pure CSS, no libraries or frameworks.
-- Use of color contrast that is accessible.
-- Use of 2-3 font variations.
+-<DONE> Code should have both grid AND flexbox implementation.
+-<DONE> Use of pure CSS, no libraries or frameworks.
+-<DONE> Use of color contrast that is accessible.
+-<DONE> Use of 2-3 font variations.
 - Use of Uplift Code Camp's HTML and CSS coding standards.
-- Use of Uplift Code Camp's committing standards.
+-<DONE> Use of Uplift Code Camp's committing standards.
 
 _For Uplift Code Camp's code and committing standards, refer to your Batch's Gitlab resources folder = /batch*/resources/*.md._
 
