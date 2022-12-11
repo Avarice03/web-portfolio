@@ -76,8 +76,8 @@ The below are the user stories for this project:
 
 - I can experience the website on mobile, tablet and desktop screens.
 - No image stretching.
-- No information or error logs are seen on the browser's console.
-- No dead links.
+-<DONE> No information or error logs are seen on the browser's console.
+-<DONE> No dead links.
 
 ## Technical Specifications
 
