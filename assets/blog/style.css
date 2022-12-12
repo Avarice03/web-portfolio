@@ -119,3 +119,24 @@ ul, ol {
     text-decoration: none;
     color: #3882f6;
 }
+
+/* MEDIA QUERY FOR MOBILE DEVICES */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    h6 {
+        font-size: 20px;
+    }
+    
+    /*------ MAIN CONTENT ------*/
+    .main-container {
+        padding: 1em;
+    }
+    
+    .container {
+        width: 300px;
+        font-size: 16px;
+    }
+    
+    .container h1 {
+        font-size: 27px;
+    }
+}
