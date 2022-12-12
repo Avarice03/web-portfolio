@@ -75,7 +75,7 @@ The below are the user stories for this project:
 #### Acceptance criteria
 
 - I can experience the website on mobile, tablet and desktop screens.
-- No image stretching.
+-<DONE>No image stretching.
 -<DONE> No information or error logs are seen on the browser's console.
 -<DONE> No dead links.
 
