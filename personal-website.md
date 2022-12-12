@@ -74,8 +74,8 @@ The below are the user stories for this project:
 
 #### Acceptance criteria
 
-- I can experience the website on mobile, tablet and desktop screens.
--<DONE>No image stretching.
+-<DONE> I can experience the website on mobile, tablet and desktop screens.
+-<DONE> No image stretching.
 -<DONE> No information or error logs are seen on the browser's console.
 -<DONE> No dead links.
 
@@ -111,8 +111,8 @@ _For Uplift Code Camp's code and committing standards, refer to your Batch's Git
 - A DRY code.
 - Use of proper spaces and indentation.
 - Use of appropriate semantic tags.
-- Use of external CSS.
-- Use of minified images.
+-<DONE> Use of external CSS.
+-<DONE> Use of minified images.
 
 ### 10 points on presentation
 
@@ -122,8 +122,8 @@ _For Uplift Code Camp's code and committing standards, refer to your Batch's Git
 
 ### 10 points for a blog
 
-- As a user, I can read at least one blog written by you on your website, with a minimum of 800 words. Topic can be anything under the sun.
-- The blog section should be in a different page from the rest of the personal website with a link from the navigation UI.
+-<DONE> As a user, I can read at least one blog written by you on your website, with a minimum of 800 words. Topic can be anything under the sun.
+-<DONE> The blog section should be in a different page from the rest of the personal website with a link from the navigation UI.
 
 ### 10 points for deploying
 
