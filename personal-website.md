@@ -89,7 +89,7 @@ The below are the technical specifications for this project:
 -<DONE> Use of pure CSS, no libraries or frameworks.
 -<DONE> Use of color contrast that is accessible.
 -<DONE> Use of 2-3 font variations.
-- Use of Uplift Code Camp's HTML and CSS coding standards.
+-<DONE> Use of Uplift Code Camp's HTML and CSS coding standards.
 -<DONE> Use of Uplift Code Camp's committing standards.
 
 _For Uplift Code Camp's code and committing standards, refer to your Batch's Gitlab resources folder = /batch*/resources/*.md._
@@ -109,8 +109,8 @@ _For Uplift Code Camp's code and committing standards, refer to your Batch's Git
 ### 30 points on code quality
 
 - A DRY code.
-- Use of proper spaces and indentation.
-- Use of appropriate semantic tags.
+-<DONE> Use of proper spaces and indentation.
+-<DONE>Use of appropriate semantic tags.
 -<DONE> Use of external CSS.
 -<DONE> Use of minified images.
 
