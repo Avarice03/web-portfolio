@@ -1,380 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./assets/stylesheets/style.css">
 </head>
 <body>
-    <!-- GRID -->
-    <div class="grid-container">
-        <!-- HEADER -->
-        <div id="header">
-            <div class="home">
-                <img src="./assets/images/fox.png" alt="picture of a cute fox">
-                <a href="#">Niel</a>
-            </div>
-            <div class="hamburger-menu">
-                <input id="menu-toggle" type="checkbox"/>
-                <label class="menu-button" for="meun-toggle">
-                    <span></span>
-                </label>
-                <ul class="menu">
-                    <li><a class="menu-item" href="#about">About Me</a></li>
-                    <li><a class="menu-item" href="#education">Education</a></li>
-                    <li><a class="menu-item" href="#skills">Skills</a></li>
-                    <li><a class="menu-item" href="#experience">Experience</a></li>
-                    <li><a class="menu-item" href="#interests">Interests</a></li>
-                    <li><a class="menu-item" href="#awards">Awards</a></li>
-                    <li><a class="menu-item" href="#contact">Contact Me</a></li>
-                    <li><a class="menu-item" href="./blog.html">Blog</a></li>
-                </ul>
-            </div>
+  <!-- GRID -->
+  <div class="grid-container">
+    <!-- HEADER -->
+    <div id="header">
+      <div class="home">
+        <a href="#">Niel</a>
+      </div>
+      <div class="hamburger-menu">
+        <input id="menu-toggle" type="checkbox">
+        <label class="menu-button" for="menu-toggle">
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a class="menu-item" href="#about">About Me</a></li>
+          <li><a class="menu-item" href="#education">Education</a></li>
+          <li><a class="menu-item" href="#skills">Skills</a></li>
+          <li><a class="menu-item" href="#experience">Experience</a></li>
+          <li><a class="menu-item" href="#interests">Interests</a></li>
+          <li><a class="menu-item" href="#awards">Awards</a></li>
+          <li><a class="menu-item" href="#contact">Contact Me</a></li>
+          <li><a class="menu-item" href="./blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- TOP CONTENT -->
+    <div class="top-container">
+      <img src="./assets/images/niel.png" alt="A profile picture of myself">
+      <div class="content-body">
+        <h1>DANIEL EDISON MENDEGORIN</h1>
+        <h3><em>An aspiring web-developer</em></h3>
+      </div>
+    </div>
+    <!-- SIDENAV -->
+    <div class="sidenav-container">
+      <div class="sidenav sticky">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- MAIN CONTENT-->
+    <div class="main-container">
+      <!-- About Me-->
+      <div class="container" id="about">
+        <h2>About Me</h2>
+        <div class="content-body">
+          <p>I am currently studying full-stack web development at Uplift Code Camp. Before studying at Uplift, I pursued my undergraduate degree in Electrical Engineering majored in Electronics. Since I am so passionate about technology, I decided to change my career path and focus on programming, specifically web development.</p>
+          <br>
+          <p>Have significant experience in Git management, HTML, CSS, Python, Matlab, and Visual Basic.</p>
         </div>
-        <!-- TOP CONTENT -->
-        <div class="top-container">
-            <img src="./assets/images/niel.png" alt="A profile picture of myself">
-            <div class="content-body">
-                <h1>DANIEL EDISON MENDEGORIN</h1>
-                <h3><em>An aspiring web-developer</em></h3>
+      </div>
+      <!-- Education -->
+      <div class="container" id="education">
+        <h2>Education</h2>
+        <div class="content-body">
+          <div class="education-item">
+            <div class="education-card">
+              <img src="./assets/images/laco.jpg" alt="Logo of La Consolacion College Biñan">
             </div>
+            <h6>La Consolacion College</h6>
+            <h6>Biñan</h6>
+            <p>Primary Education</p>
+            <div class="subtext">2005-2009</div>
+          </div>
+          <div class="education-item">
+            <div class="education-card">
+              <img src="./assets/images/aamb.jpeg" alt="Logo of Ann Arbor Montessori Biñan">
+            </div>
+            <h6>Ann Arbor Montessori</h6>
+            <h6>Biñan</h6>
+            <p>Primary and Secondary Education</p>
+            <div class="subtext">2009-2015</div>
+          </div>
+          <div class="education-item">
+            <div class="education-card">
+              <img src="./assets/images/uplb.jpg" alt="University of the Philippines Los Baños">
+            </div>
+            <h6 class="uplb">University of the Philippines</h6>
+            <h6>Los Baños</h6>
+            <p>BS Electrical Engineering</p>
+            <div class="subtext">2015-2021</div>
+          </div>
         </div>
-        <!-- SIDENAV -->
-        <div class="sidenav-container">
-            <div class="sidenav sticky">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                    <li><a href="#awards">Awards</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                </ul>
+      </div>
+      <!-- Skills -->
+      <div class="container" id="skills">
+        <h2>Skills</h2>
+        <!-- Downloading the resume -->
+        <h6>Resume</h6>
+        <div class="resume-item">
+          <a href="./my-resume.pdf" download>
+            <div class="resume-card">
+              <img src="./assets/images/cv.png" alt="icon of resume/cv">
             </div>
+            <p>DOWNLOAD</p>
+          </a>
         </div>
-        <!-- MAIN CONTENT-->
-        <div class="main-container">
-            <!-- About Me-->
-            <div class="container" id="about">
-                <h2>About Me</h2>
-                <div class="content-body">
-                    <p>I am currently studying full-stack web development at Uplift Code Camp. Before studying at Uplift, I pursued my undergraduate degree in Electrical Engineering majored in Electronics. Since I am so passionate about technology, I decided to change my career path and focus on programming, specifically web development.</p>
-                    <br>
-                    <p>Have significant experience in Git management, HTML, CSS, Python, Matlab, and Visual Basic.</p>
-                </div>
+        <!-- Technologies/Stacks Used -->
+        <h6>Technologies Used</h6>
+        <div class="content-body">
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/git.png" alt="logo of Git">
             </div>
-            <!-- Education -->
-            <div class="container" id="education">
-                <h2>Education</h2>
-                <div class="content-body">
-                    <div class="education-item">
-                        <div class="education-card">
-                            <img src="./assets/images/laco.jpg" alt="Logo of La Consolacion College Biñan">
-                        </div>
-                        <h6>La Consolacion College</h6>
-                        <h6>Biñan</h6>
-                        <p>Primary Education</p>
-                        <div class="subtext">2005-2009</div>
-                    </div>
-                    <div class="education-item">
-                        <div class="education-card">
-                            <img src="./assets/images/aamb.jpeg" alt="Logo of Ann Arbor Montessori Biñan">
-                        </div>
-                        <h6>Ann Arbor Montessori</h6>
-                        <h6>Biñan</h6>
-                        <p>Primary and Secondary Education</p>
-                        <div class="subtext">2009-2015</div>
-                    </div>
-                    <div class="education-item">
-                        <div class="education-card">
-                            <img src="./assets/images/uplb.jpg" alt="University of the Philippines Los Baños">
-                        </div>
-                        <h6 class="uplb">University of the Philippines</h6>
-                        <h6>Los Baños</h6>
-                        <p>BS Electrical Engineering</p>
-                        <div class="subtext">2015-2021</div>
-                    </div>
-                </div>
+            <p>Git</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/html.png" alt="logo of HTML">
             </div>
-            <!-- Skills -->
-            <div class="container" id="skills">
-                <h2>Skills</h2>
-                <!-- Downloading the resume -->
-                <h6>Resume</h6>
-                <div class="resume-item">
-                    <a href="./my-resume.pdf" download>
-                        <div class="resume-card">
-                            <img src="./assets/images/cv.png" alt="icon of resume/cv">
-                        </div>
-                        <p>DOWNLOAD</p>
-                    </a>
-                </div>
-                <!-- Technologies/Stacks Used -->
-                <h6>Technologies Used</h6>
-                <div class="content-body">
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/git.png" alt="logo of Git">
-                        </div>
-                        <p>Git</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/html.png" alt="logo of HTML">
-                        </div>
-                        <p>HTML</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/css.png" alt="logo of CSS">
-                        </div>
-                        <p>CSS</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/python.png" alt="logo of Python">
-                        </div>
-                        <p>Python</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/visual-studio.png" alt="logo of Visual Studio">
-                        </div>
-                        <p>Visual Basic</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/matlab.png" alt="logo of Matlab">
-                        </div>
-                        <p>Matlab</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/autocad.png" alt="logo of Autocad">
-                        </div>
-                        <p>Autocad</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-card">
-                            <img src="./assets/images/logisim.png" alt="logo of Logisim">
-                        </div>
-                        <p>Logisim</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="soon-card">
-                            <img src="./assets/images/javascript.png" alt="logo of Javascipt">
-                        </div>
-                        <p>Soon</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="soon-card">
-                            <img src="./assets/images/react.png" alt="logo of React">
-                        </div>
-                        <p>Soon</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="soon-card">
-                            <img src="./assets/images/nodejs.png" alt="logo of NodeJs">
-                        </div>
-                        <p>Soon</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="soon-card">
-                            <img src="./assets/images/expressjs.png" alt="logo of ExpressJs">
-                        </div>
-                        <p>Soon</p>
-                    </div>
-                    <div class="skills-item">
-                        <div class="soon-card">
-                            <img src="./assets/images/mongodb.png" alt="logo of MongoDB">
-                        </div>
-                        <p>Soon</p>
-                    </div>
-                </div>
+            <p>HTML</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/css.png" alt="logo of CSS">
             </div>
-            <!-- Experiences -->
-            <div class="container" id="experience">
-                <h2>Experience</h2>
-                <h6>Job Experience</h6>
-                <div class="experience-item">
-                    <div class="experience-card">
-                        <!-- job experience placeholder -->
-                        <p class="uplift">Uplift Code Camp</h6>
-                        <div class="subtext">Sept 2022 - Present</div>
-                        <ul>
-                            <li>Student
-                                <div class="subtext">Nov 2022 - Present</div>
-                            </li>
-                            <li>Student Interview
-                                <div class="subtext">Oct  2022 - Nov 2022</div>
-                            </li>
-                            <li>Student Application
-                                <div class="subtext">Sept 2022 - Oct 2022</div>
-                            </li>
-                        </ul>
-                        <div class="subtext">
-                            <em>Note: Placeholder for job experience</em>
-                        </div>
-                    </div>
-                    <img src="./assets/images/uplift.png" alt="Logo of Uplift">
-                </div>
-                <h6>Projects</h6>
-                <div class="content-body">
-                    <div class="project-item">
-                        <img src="./assets/images/under-construction.png" alt="An icon signifying under construction">
-                        <p>WORK IN PROGRESS!</p>
-                    </div>
-                </div>
+            <p>CSS</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/python.png" alt="logo of Python">
             </div>
-            <!-- Interests -->
-            <div class="container" id="interests">
-                <h2>Interests</h2>
-                <!-- Company iterests -->
-                <h6>Companies</h6>
-                <div class="content-body">
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/uplift.png" alt="logo of Uplift Code Camp">
-                            <p>Uplift Code Camp</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/aboitiz.jpg" alt="logo of Aboitiz">
-                            <p>Aboitiz Group</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/aboitiz-foundation.jpg" alt="logo of Aboitiz Foundation">
-                            <p>Aboitiz Foundation</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/meta.png" alt="logo of Meta">
-                            <p>Meta</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/accenture.jpg" alt="logo of Accenture">
-                            <p>Accenture</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/cynder.png" alt="logo of Cynder">
-                            <p>Cynder</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/edamama.jpg" alt="logo of Edamama">
-                            <p>Edamama</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/growsari.jpg" alt="logo of Growsari">
-                            <p>Growsari</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/morgan.png" alt="logo of Morgan">
-                            <p>Morgan</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/maroon-studios.png" alt="logo of Maroon Studios">
-                            <p>Maroon Studios</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/nowserving.png" alt="logo of NowServing">
-                            <p>NowServing</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/penbrothers.jpg" alt="logo of Penbrothers">
-                            <p>Penbrothers</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/telus.jpg" alt="logo of Telus">
-                            <p>Telus</p>
-                        </div>
-                    </div>
-                    <div class="interests-item">
-                        <div class="interests-card">
-                            <img src="./assets/images/white-cloak.png" alt="logo of White Cloak Technologies">
-                            <p>White Cloak Technologies</p>
-                        </div>
-                    </div>
-                </div>
+            <p>Python</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/visual-studio.png" alt="logo of Visual Studio">
             </div>
-            <!-- Awards/Achievements -->
-            <div class="container" id="awards">
-                <h2>Awards/Certifications</h2>
-                <div class="content-body">
-                    <div class="awards-item">
-                        <img src="./assets/images/uplift.png" alt="Logo of Uplift Code Camp">
-                        <div class="awards-card">
-                            <h6><em>Manifesting certificate of graduation</em></h6>
-                            <p>Uplift Code Camp</p>
-                            <img src="./assets/images/crossing-fingers.png">
-                        </div>
-                    </div>
-                    <div class="awards-item">
-                        <img src="./assets/images/prc.svg" alt="Logo of PRC">
-                        <div class="awards-card">
-                            <h6>Registered Electrical Engineer</h6>
-                            <p>Philippine Professional Regulation Committee</p>
-                        </div>
-                    </div>
-                </div>
+            <p>Visual Basic</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/matlab.png" alt="logo of Matlab">
             </div>
-            <!-- Contact -->
-            <div class="container" id="contact">
-                <h2>Contact Me</h2>
-                <div class="content-body">
-                    <div class="contact-item">
-                        <img src="./assets/images/phone.png" alt="An icon of a phone"> 
-                        <a href="sms: 639175968907">&nbsp +63-917-596-8907</a>
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/images/gmail.png" alt="An icon of gmail">
-                        <a href="mailto: dmendegorin@gmail.com">&nbsp dmendegorin@gmail.com</a> 
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/images/gitlab.png" alt="An icon of gitlab">  
-                        <a href="https://github.com/Avarice03">&nbsp Avarice03</a>
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/images/github.png" alt="An icon of github">
-                        <a href="https://gitlab.com/dmendegorin">&nbsp dmendegorin</a>
-                    </div>
-                    <div class="contact-item">
-                        <img src="./assets/images/linkedin.png" alt="An icon of linkedIn"> 
-                        <a href="https://www.linkedin.com/in/daniel-edison-mendegorin-5b13a8247/">&nbsp Profile</a>
-                    </div>
-                </div>
+            <p>Matlab</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/autocad.png" alt="logo of Autocad">
             </div>
+            <p>Autocad</p>
+          </div>
+          <div class="skills-item">
+            <div class="skills-card">
+              <img src="./assets/images/logisim.png" alt="logo of Logisim">
+            </div>
+            <p>Logisim</p>
+          </div>
+          <div class="skills-item">
+            <div class="soon-card">
+              <img src="./assets/images/javascript.png" alt="logo of Javascipt">
+            </div>
+            <p>Soon</p>
+          </div>
+          <div class="skills-item">
+            <div class="soon-card">
+              <img src="./assets/images/react.png" alt="logo of React">
+            </div>
+            <p>Soon</p>
+          </div>
+          <div class="skills-item">
+            <div class="soon-card">
+              <img src="./assets/images/nodejs.png" alt="logo of NodeJs">
+            </div>
+            <p>Soon</p>
+          </div>
+          <div class="skills-item">
+            <div class="soon-card">
+              <img src="./assets/images/expressjs.png" alt="logo of ExpressJs">
+            </div>
+            <p>Soon</p>
+          </div>
+          <div class="skills-item">
+            <div class="soon-card">
+              <img src="./assets/images/mongodb.png" alt="logo of MongoDB">
+            </div>
+            <p>Soon</p>
+          </div>
         </div>
-        <!-- FOOTER -->
-        <div class="footer">
-            <p>Uplift Code Camp</p>
-            <p>Icons made by Futuer, Gregor, Freepik, Soodesign, Pixel Perfect, Good Ware, and Dave Gandy from <a href="https://www.flaticon.com/">Flaticon</a></p>
+      </div>
+      <!-- Experiences -->
+      <div class="container" id="experience">
+        <h2>Experience</h2>
+        <h6>Job Experience</h6>
+        <div class="experience-item">
+          <div class="experience-card">
+            <!-- job experience placeholder -->
+            <p class="uplift">Uplift Code Camp</p>
+            <div class="subtext">Sept 2022 - Present</div>
+            <ul>
+              <li>Student
+                <div class="subtext">Nov 2022 - Present</div>
+              </li>
+              <li>Student Interview
+                <div class="subtext">Oct  2022 - Nov 2022</div>
+              </li>
+              <li>Student Application
+                <div class="subtext">Sept 2022 - Oct 2022</div>
+              </li>
+            </ul>
+            <div class="subtext">
+              <em>Note: Placeholder for job experience</em>
+            </div>
+          </div>
+          <img src="./assets/images/uplift.png" alt="Logo of Uplift">
         </div>
+        <h6>Projects</h6>
+        <div class="content-body">
+          <div class="project-item">
+            <img src="./assets/images/under-construction.png" alt="An icon signifying under construction">
+            <p>Work in Progress!</p>
+          </div>
+        </div>
+      </div>
+      <!-- Interests -->
+      <div class="container" id="interests">
+        <h2>Interests</h2>
+        <!-- Company iterests -->
+        <h6>Companies</h6>
+        <div class="content-body">
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/uplift.png" alt="logo of Uplift Code Camp">
+              <p>Uplift Code Camp</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/aboitiz.jpg" alt="logo of Aboitiz">
+              <p>Aboitiz Group</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/aboitiz-foundation.jpg" alt="logo of Aboitiz Foundation">
+              <p>Aboitiz Foundation</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/meta.png" alt="logo of Meta">
+              <p>Meta</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/accenture.jpg" alt="logo of Accenture">
+              <p>Accenture</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/cynder.png" alt="logo of Cynder">
+              <p>Cynder</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/edamama.jpg" alt="logo of Edamama">
+              <p>Edamama</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/growsari.jpg" alt="logo of Growsari">
+              <p>Growsari</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/morgan.png" alt="logo of Morgan">
+              <p>Morgan</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/maroon-studios.png" alt="logo of Maroon Studios">
+              <p>Maroon Studios</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/nowserving.png" alt="logo of NowServing">
+              <p>NowServing</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/penbrothers.jpg" alt="logo of Penbrothers">
+              <p>Penbrothers</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/telus.jpg" alt="logo of Telus">
+              <p>Telus</p>
+            </div>
+          </div>
+          <div class="interests-item">
+            <div class="interests-card">
+              <img src="./assets/images/white-cloak.png" alt="logo of White Cloak Technologies">
+              <p>White Cloak Technologies</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Awards/Achievements -->
+      <div class="container" id="awards">
+        <h2>Awards/Certifications</h2>
+        <div class="content-body">
+          <div class="awards-item">
+            <img src="./assets/images/uplift.png" alt="Logo of Uplift Code Camp">
+            <div class="awards-card">
+              <h6><em>Manifesting certificate of graduation</em></h6>
+              <p>Uplift Code Camp</p>
+              <img src="./assets/images/crossing-fingers.png" alt="an icon of crossing fingers">
+            </div>
+          </div>
+          <div class="awards-item">
+          <img src="./assets/images/prc.svg" alt="Logo of PRC">
+            <div class="awards-card">
+              <h6>Registered Electrical Engineer</h6>
+              <p>Philippine Professional Regulation Committee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <div class="content-body">
+          <div class="contact-item">
+            <img src="./assets/images/phone.png" alt="An icon of a phone"> 
+            <a href="sms:639175968907">+63-917-596-8907</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/images/gmail.png" alt="An icon of gmail">
+            <a href="mailto:dmendegorin@gmail.com">dmendegorin@gmail.com</a> 
+          </div>
+          <div class="contact-item">
+            <img src="./assets/images/gitlab.png" alt="An icon of gitlab">  
+            <a href="https://github.com/Avarice03">Avarice03</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/images/github.png" alt="An icon of github">
+            <a href="https://gitlab.com/dmendegorin">dmendegorin</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/images/linkedin.png" alt="An icon of linkedIn"> 
+            <a href="https://www.linkedin.com/in/daniel-edison-mendegorin-5b13a8247/">Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>Uplift Code Camp</p>
+      <p>Icons made by Futuer, Gregor, Freepik, Soodesign, Pixel Perfect, Good Ware, and Dave Gandy from <a href="https://www.flaticon.com/">Flaticon</a></p>
+    </div>
+  </div>
 </body>
 </html>
