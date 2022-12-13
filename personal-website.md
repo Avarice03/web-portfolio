@@ -127,7 +127,7 @@ _For Uplift Code Camp's code and committing standards, refer to your Batch's Git
 
 ### 10 points for deploying
 
-- As a user, I can access your website from the public internet.
+-<DONE> As a user, I can access your website from the public internet.
 
 ## Submitting
 
