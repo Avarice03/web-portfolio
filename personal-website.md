@@ -108,9 +108,9 @@ _For Uplift Code Camp's code and committing standards, refer to your Batch's Git
 
 ### 30 points on code quality
 
-- A DRY code.
+-<DONE> A DRY code.
 -<DONE> Use of proper spaces and indentation.
--<DONE>Use of appropriate semantic tags.
+-<DONE> Use of appropriate semantic tags.
 -<DONE> Use of external CSS.
 -<DONE> Use of minified images.
 

@@ -25,7 +25,6 @@ h6 {
 /* GRID */
 .grid-container {
     display: grid;
-    /* height: 100vh; */
     grid-template: 50px 400px 1fr 40px/ 200px 1fr;
     grid-template-areas: 
     "header header"
@@ -61,6 +60,89 @@ h6 {
     display: flex;
     align-items: center;
 }
+
+/* HAMBURGER MENU - NAV */
+.hamburger-menu {
+    display: none;
+}
+
+#menu-toggle {
+    opacity: 0;
+    z-index: 2;
+}
+
+#menu-toggle:checked + .menu-button span {
+    transform: rotate(45deg);
+}
+
+#menu-toggle:checked + .menu-button span::before {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+#menu-toggle:checked + .menu-button span::after {
+    transform: rotate(0deg);
+    top: 0;
+}
+
+#menu-toggle:checked ~ .menu {
+    right: 0;
+} 
+
+.menu-button {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 16px;
+    top: 25px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.menu-button span,
+.menu-button span::before,
+.menu-button span::after {
+    width: 100%;
+    height: 2px;
+    background-color: #f9faf8;;
+    position: absolute;
+    transition-duration: .25s;
+}
+
+.menu-button span::after {
+    content: '';
+    top: 8px;
+}
+.menu-button span::before {
+    content: '';
+    bottom: 8px;
+}
+
+.menu {
+    opacity: 0.8;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    margin: 0;
+    padding-top: 100px;
+    list-style: none;
+    background-color: #1f2937;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+}
+
+.menu-item {
+    padding: 10px 30px;
+    display: block;
+    transition-duration: .25s;
+}
+
+.menu-item:hover {
+    background-color: #5d6065;
+}
+
 
 /*--------------------------- TOP CONTENT ---------------------------*/
 .top-container {
@@ -101,7 +183,7 @@ h6 {
     margin-right: 1em;
 }
 
-/* SIDENAV */
+/*--------------------------- SIDENAV ---------------------------*/
 .sidenav ul {
     list-style-type: none;
     padding: 0;
@@ -142,12 +224,12 @@ h6 {
 .main-container {
     grid-area: main-cont;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin:0 212px 0 12px;
     gap: 2em;
     padding: 1em;
-    flex-wrap: wrap;
 }
 
 .container {
@@ -276,6 +358,16 @@ h6 {
     text-decoration: none;
     color: #1f2937;
     font-weight: bold;
+}
+
+.download {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    margin-bottom: 1em;
+    margin-top: 0.2em;
 }
 
 /* EXPERIENCE */
@@ -439,10 +531,10 @@ h6 {
 }
 
 /* ------------------------------MEDIA QUERIES------------------------------ */
-/*--- FOR TABLET SCREENS ---*/
+/*--------- FOR TABLET SCREENS ---------*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
 
-    /* GRID */
+    /*------ GRID ------*/
     .grid-container {
         display: grid;
         grid-template: 50px 400px 1fr 40px/1fr;
@@ -453,7 +545,7 @@ h6 {
         "footer";
     }
     
-    /* HEADER */
+    /*------ HEADER ------*/
     #header {
         top: 0;
         position: sticky;
@@ -461,93 +553,16 @@ h6 {
     }
 
     /* HAMBURGER MENU - NAV */
-    #menu-toggle {
-        opacity: 0;
-        z-index: 2;
-    }
-
-    #menu-toggle:checked + .menu-button span {
-        transform: rotate(45deg);
-    }
-
-    #menu-toggle:checked + .menu-button span::before {
-        transform: rotate(90deg);
-        bottom: 0;
-    }
-
-    #menu-toggle:checked + .menu-button span::after {
-        transform: rotate(0deg);
-        top: 0;
-    }
-
-    #menu-toggle:checked ~ .menu {
-        right: 0;
-    } 
-
     .hamburger-menu {
         display: flex;
     }
-
-    .menu-button {
-        width: 30px;
-        height: 30px;
-        position: fixed;
-        right: 16px;
-        top: 25px;
-        z-index: 1;
-    }
-
-    .menu-button span,
-    .menu-button span::before,
-    .menu-button span::after {
-        width: 100%;
-        height: 2px;
-        background-color: #f9faf8;;
-        position: absolute;
-        transition-duration: .25s;
-    }
-
-    .menu-button span::after {
-        content: '';
-        top: 8px;
-    }
-    .menu-button span::before {
-        content: '';
-        bottom: 8px;
-    }
-
-    .menu {
-        opacity: 0.8;
-        position: fixed;
-        width: 300px;
-        height: 100%;
-        top: 0;
-        right: -100%;
-        margin: 0;
-        padding-top: 100px;
-        list-style: none;
-        background-color: #1f2937;
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-        transition-duration: .25s;
-    }
-
-    .menu-item {
-        padding: 10px 30px;
-        display: block;
-        transition-duration: .25s;
-    }
-
-    .menu-item:hover {
-        background-color: #5d6065;
-    }
-
     
     /* SIDENAV */
     .sidenav-container {
         display: none;
     }
 
-    /* TOP CONTENT */
+    /*------ TOP CONTENT ------*/
     .top-container {
         justify-content: center;
         align-items: center; 
@@ -566,9 +581,9 @@ h6 {
     }
 }
 
-/*--- FOR MOBILE SCREENS ---*/
+/*--------- FOR MOBILE SCREENS ---------*/
 @media only screen and (min-width: 320px) and (max-width: 600px) {
-    /* GRID */
+    /*------ GRID ------*/
     .grid-container {
         display: grid;
         grid-template: 50px 400px 1fr 40px/1fr;
@@ -579,15 +594,20 @@ h6 {
         "footer";
     }
     
-    /* HEADER */
+    /*------ HEADER ------*/
     #header {
         top: 0;
         position: sticky;
         z-index: 1;
         min-width: 300px;
     }
-    
-    /* TOP CONTENT */
+
+    /* HAMBURGER MENU - NAV */
+    .hamburger-menu {
+        display: flex;
+    }
+
+    /*------ TOP CONTENT ------*/
     .top-container {
         margin-bottom: 2em;
         display: flex;
@@ -617,88 +637,7 @@ h6 {
         margin-right: 0;
     }
     
-    /* HAMBURGER MENU - NAV */
-    #menu-toggle {
-        opacity: 0;
-        z-index: 2;
-    }
-
-    #menu-toggle:checked + .menu-button span {
-        transform: rotate(45deg);
-    }
-
-    #menu-toggle:checked + .menu-button span::before {
-        transform: rotate(90deg);
-        bottom: 0;
-    }
-
-    #menu-toggle:checked + .menu-button span::after {
-        transform: rotate(0deg);
-        top: 0;
-    }
-
-    #menu-toggle:checked ~ .menu {
-        right: 0;
-    } 
-
-    .hamburger-menu {
-        display: flex;
-    }
-
-    .menu-button {
-        width: 30px;
-        height: 30px;
-        position: fixed;
-        right: 16px;
-        top: 25px;
-        z-index: 1;
-    }
-
-    .menu-button span,
-    .menu-button span::before,
-    .menu-button span::after {
-        width: 100%;
-        height: 2px;
-        background-color: #f9faf8;;
-        position: absolute;
-        transition-duration: .25s;
-    }
-
-    .menu-button span::after {
-        content: '';
-        top: 8px;
-    }
-    .menu-button span::before {
-        content: '';
-        bottom: 8px;
-    }
-
-    .menu {
-        opacity: 0.8;
-        position: fixed;
-        width: 300px;
-        height: 100%;
-        top: 0;
-        right: -100%;
-        margin: 0;
-        padding-top: 100px;
-        list-style: none;
-        background-color: #1f2937;
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
-        transition-duration: .25s;
-    }
-
-    .menu-item {
-        padding: 10px 30px;
-        display: block;
-        transition-duration: .25s;
-    }
-
-    .menu-item:hover {
-        background-color: #5d6065;
-    }
-    
-    /* SIDENAV */
+    /*------ SIDENAV ------*/
     .sidenav-container {
         display: none;
     }
@@ -826,7 +765,7 @@ h6 {
         font-size: 0.8em;
     }
     
-    /* FOOTER */
+    /*------ FOOTER ------*/
     .footer p {
         text-align: center;
     }
